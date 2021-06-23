@@ -20,7 +20,7 @@
 .searchEngine{
   position: fixed;
   width: 250px;
-  height: 50px;
+  height: 35px;
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 50px;
@@ -35,20 +35,18 @@
   /* font style of search engine */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 @media only screen and (max-width: 320px) {
   .searchEngine {
     width: 200px;
-    height: 40px;
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 700px) {
   .searchEngine {
     width: 80%;
-    height: 40px;
     font-size: 20px;
   }
 }
@@ -56,8 +54,8 @@
 /* UK or US formet selector (button) */
 .languageFormate{
   position: fixed;
-  width: 50PX;
-  height: 50PX;
+  width: 40PX;
+  height: 40PX;
   float: right;
   right: 10PX;
   top: 10px;
@@ -132,6 +130,7 @@
 
 .list{
   list-style-type: none;
+  margin-left: -20px;
 }
 .link{
   width: 90%;
@@ -181,12 +180,12 @@
 }
 @media only screen and (max-width: 360px) {
   .titleText {
-    width: 200px;
+    width: 225px;
   }
 }
 @media only screen and (max-width: 320px) {
   .titleText {
-    width: 180px;
+    width: 200px;
   }
 }
 @media only screen and (min-width: 700px) {
