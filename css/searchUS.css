@@ -90,8 +90,10 @@
   outline: none;
   border:none;
   cursor:pointer;
+  user-select: none;
+  -webkit-user-select: none;
 
-
+  font-size: 16px;
   color: navy;
 }
 .all:hover{
@@ -115,8 +117,10 @@
   outline: none;
   border:none;
   cursor:pointer;
+  user-select: none;
+  -webkit-user-select: none;
 
-
+  font-size: 16px;
   color: black;
 }
 .image:hover{
@@ -140,8 +144,10 @@
   outline: none;
   border:none;
   cursor:pointer;
+  user-select: none;
+  -webkit-user-select: none;
 
-
+  font-size: 16px;
   color: black;
 }
 .video:hover{
