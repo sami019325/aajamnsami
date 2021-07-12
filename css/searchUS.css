@@ -1,0 +1,304 @@
+/* this is the background div of search box */
+.searchbox{
+  position: fixed;
+  width: 98%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  background-color: #0AFFA0;
+  padding: 2px;
+  border-radius: 5px;
+  backdrop-filter: blur(6px);
+  
+}
+
+
+
+
+/* this is the css of search box */
+.searchEngineUS{
+  position: fixed;
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 50px;
+  background-color:beige;
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  outline: none;
+  text-align: center;
+
+  /* font style of search engine */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+
+}
+
+@media only screen and (max-width: 320px) {
+  .searchEngineUS {
+    width: 200px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .searchEngineUS {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+/* UK or US formet selector (button) */
+.languageFormate{
+  position: fixed;
+  width: 39PX;
+  height: 39PX;
+  float: right;
+  right: 10PX;
+  top: 10px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  
+}
+
+.formateBox{ /* this is the div of all+ image+ video */ 
+  position:absolute;
+  width: 100%;
+  height: 32px;
+  top: 65px;
+  
+  background-color: aquamarine;
+}
+
+.all{
+  position: relative;
+  width: 20%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-left: 5%;
+  float: left;
+  background-color: transparent;
+  outline: none;
+  border:none;
+  cursor:pointer;
+
+
+  color: navy;
+}
+.all:hover{
+  background-color: #23d076;
+}
+.all:active{
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+
+.image{
+  position: relative;
+  width: 20%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: transparent;
+  outline: none;
+  border:none;
+  cursor:pointer;
+
+
+  color: black;
+}
+.image:hover{
+  background-color: #23d076;
+}
+.image:active{
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+
+.video{
+  position: relative;
+  width: 20%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-right: 5%;
+  float: right;
+  background-color: transparent;
+  outline: none;
+  border:none;
+  cursor:pointer;
+
+
+  color: black;
+}
+.video:hover{
+  background-color: #23d076;
+}
+.video:active{
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+
+
+
+.indicator{ /* tis is the active possition indicator */
+  position: relative;
+  height: 2px;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: yellow;
+
+}
+
+/* this is the background div of href link */
+.myUL{
+  position: fixed;
+  width: 98%;
+  height: 650px;
+  margin-top: 91px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #23d076;
+  border-radius: 5px;
+  padding-top: 5px;
+  overflow-y: auto;
+  
+}
+
+@media only screen and (max-width: 450px) {
+  .myUL {
+    width: 425px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .myUL {
+    width: 410px;
+    height: 720px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .myUL {
+    width: 380px;
+    height: 720px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .myUL {
+    width: 360px;
+    height: 660px ;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .myUL {
+    width: 350px;
+    height: 630px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .myUL {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .myUL {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .myUL {
+    width: 275px;
+  }
+}
+
+
+
+/* this is the list box */
+
+.hidenText{ 
+  opacity: 0%;
+  width: 1px;
+  height: 1px;
+
+
+}
+
+.list{
+  list-style-type: none;
+  margin-left: -20px;
+}
+.link{
+  width: 90%;
+  height: 100px;
+  border: 1px solid #ddd;
+  margin-top: 1px; /* Prevent double borders */
+  margin-left: -10px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+.prtsOfspc{
+  float: left;
+ 
+}
+.headText{
+  position: absolute;
+  height: 20px;
+  color: rgb(128, 95, 218);
+  padding-top: 10px;
+  padding-left: 5px;
+  float: left;
+}
+.img{
+  width: 50px;
+  height: 60px;
+  float: right;
+  padding-top: 10px;
+  border: 3px solid #FFDE82;
+  border-radius: 5px;
+  background-color: #FFDE82;
+}
+.titleText{       /* this is detail sentance */
+  position: absolute;
+  height: 40px;
+  width: 250px;
+  color: rgb(153, 155, 155);
+  float: left;
+  padding-top: 20px;
+  padding-left: 5px;
+
+  font-size: medium;
+}
+@media only screen and (max-width: 360px) {
+  .titleText {
+    width: 225px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .titleText {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .titleText {
+    width: 650px;
+  }
+}

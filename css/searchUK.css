@@ -1,0 +1,75 @@
+/*
+.searchboxUK{
+    position: fixed;
+    width: 98%;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    background-color: #9e471e;
+    padding: 2px;
+    border-radius: 5px;
+    backdrop-filter: blur(6px);
+    
+  }
+  
+  */
+  
+  
+  /* this is the css of search box */
+  .searchEngineUK{
+    position: fixed;
+    width: 250px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    background-color:rgb(230, 230, 17);
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    outline: none;
+    text-align: center;
+
+    /*display: none;
+  
+    /* font style of search engine */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+  
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .searchEngineUK {
+      width: 200px;
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .searchEngineUK {
+      width: 80%;
+      font-size: 20px;
+    }
+  }
+  
+  /* UK or US formet selector (button) */
+  .languageFormateUK{
+    position: fixed;
+    width: 39PX;
+    height: 39PX;
+    float: right;
+    right: 10PX;
+    top: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    /*display: none; */ 
+    
+  }
